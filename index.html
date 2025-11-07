@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Ваше Имя] - Резюме</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 0;
+            background: #fff;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0779e4;
+        }
+        .btn {
+            display: inline-block;
+            background: #0779e4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>[Ваше Имя]</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#experience">Опыт</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Краткое введение о себе, ваших профессиональных интересах и целях. Например: "Начинающий фронтенд-разработчик с passion к созданию чистого и удобного кода. Учусь на 3 курсе по специальности 'Информатика и вычислительная техника'."</p>
+        </section>
+
+        <section id="education">
+            <h2>Образование</h2>
+            <ul>
+                <li>
+                    <strong>[Название Университета]</strong> (Годы обучения)
+                    <br>Специальность: [Ваша специальность]
+                    <br>Средний балл: [Ваш GPA, если укаываете]
+                </li>
+                <li>
+                    <strong>[Курсы / Сертификаты]</strong> (Год получения)
+                    <br>Платформа: [Coursera, Stepik, Hexlet и т.д.]
+                    <br>Название курса: [Полное название]
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Опыт работы / Проекты</h2>
+            <ul>
+                <li>
+                    <strong>Название проекта 1</strong>
+                    <br><em>Технологии: HTML, CSS, JavaScript</em>
+                    <br>Описание проекта: что он делает, какую проблему решает. Ссылка на GitHub репозиторий или живую версию.
+                </li>
+                <li>
+                    <strong>Название проекта 2 (Учебный проект)</strong>
+                    <br><em>Технологии: Python, Django</em>
+                    <br>Описание: "Разработал веб-приложение для учета личных финансов с возможностью добавления доходов/расходов и построения графиков."
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Навыки (Skills)</h2>
+            <ul>
+                <li><strong>Языки программирования:</strong> Python, JavaScript, Java</li>
+                <li><strong>Фронтенд:</strong> HTML5, CSS3, React (начальный уровень)</li>
+                <li><strong>Бэкенд:</strong> Node.js, Express</li>
+                <li><strong>Базы данных:</strong> SQL (PostgreSQL), MongoDB</li>
+                <li><strong>Инструменты:</strong> Git, GitHub, VS Code, Figma</li>
+                <li><strong>Языки:</strong> Русский (родной), Английский (B2 - Upper-Intermediate)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            <p>Telegram: <a href="https://t.me/yournickname" target="_blank">@yournickname</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Ваш LinkedIn</a></p>
+            <!-- Можно добавить кнопку для скачивания резюме -->
+            <a href="link/to/your/cv.pdf" class="btn" download>Скачать Резюме (PDF)</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Ваше Имя]. Все права защищены.</p>
+    </footer>
+</body>
+</html>
